@@ -4,7 +4,7 @@ import pyautogui
 import time
 
 dwellTime = 5
-time.sleep(dwell_time)
+time.sleep(dwellTime)
 
 cmdFilenme = r"/home/ubuntu/command.txt"
 keystrokeInterval = 0.1 
