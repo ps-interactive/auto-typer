@@ -9,6 +9,7 @@ A tool for smoothly typing commands in demos
 ## Usage
 <p>pip3 install pyautogui
 <p>git clone https://github.com/ps-interactive/auto-typer.git
+<p>cd auto-typer
 <p>sudo chmod +x auto-typer.py
 <p>Create a file called command.txt which contains the command you want to be typed
 <p>./auto-typer.py
