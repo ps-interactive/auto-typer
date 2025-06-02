@@ -1,11 +1,11 @@
 # auto-typer
 A tool for smoothly typing commands in demos
 
-## Parameters
-* dwellTime: Initial delay to allow you to focus the terminal window you wnt to type in
-* cmdFilename: Full path to the command file 
-* keystrokeInterval: The time between each keystroke in seconds
-* postCommandDelay: The delay between running successive commands
+## Parameters (defaults)
+* dwellTime: Initial delay to allow you to focus the terminal window you want to type in (5 seconds)
+* cmdFilename: Full path to the command file (./commands.txt)
+* keystrokeInterval: The time between each keystroke in seconds (0.1 second)
+* postCommandDelay: The delay between running successive commands (1 second)
 
 ## Usage
 <p>pip3 install pyautogui
