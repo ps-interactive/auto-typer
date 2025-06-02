@@ -1,16 +1,15 @@
 # auto-typer
 A tool for smoothly typing commands in demos
 
-## Pre-requisites
-* Requires python3
-<p>pip3 install pyautogui
-
 ## Parameters
 * dwellTime: The maximum available time from running the script to bringing the target window into focus
 * cmdFilename: Full path to the command file 
 * keystrokeInterval: The time between each keystroke in seconds
 
 ## Usage
+pip3 install pyautogui
+git clone https://github.com/ps-interactive/auto-typer.git
+sudo chmod +x auto-typer.py
 <p>Create a file called command.txt which contains the command you want to be typed
 <p>./auto-typer.py
   
