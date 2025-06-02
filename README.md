@@ -2,8 +2,8 @@
 A tool for smoothly typing commands in demos
 
 ## Pre-requisites
-* Requires python3<br>
-pip install pyautogui
+* Requires python3
+<p>pip install pyautogui
 
 ## Parameters
 * dwell_time: The maximum available time from running the script to bringing the target window into focus
