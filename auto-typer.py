@@ -1,14 +1,18 @@
 #!/bin/python3
-
 import pyautogui
 import time
 
 dwellTime = 5
 time.sleep(dwellTime)
 
-cmdFilename = r"./command.txt"
-keystrokeInterval = 0.1 
+cmdFilename = r"./commands.txt"
+keystrokeInterval = 0.1
+postCommandDelay = 1.0 
 
-with open(cmdFilename) as f:
-	data = f.read()
-	pyautogui.write(data, interval=keystrokeInterval)
+with open(cmdFilename, 'r') as f:
+    commands = [line.strip() for line in f if line.strip()]
+
+for command in commands:
+    pyautogui.write(command, interval=keystrokeInterval)
+    pyautogui.press('enter')
+    time.sleep(postCommandDelay)
