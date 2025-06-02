@@ -7,9 +7,9 @@ A tool for smoothly typing commands in demos
 * keystrokeInterval: The time between each keystroke in seconds
 
 ## Usage
-pip3 install pyautogui
-git clone https://github.com/ps-interactive/auto-typer.git
-sudo chmod +x auto-typer.py
+<p>pip3 install pyautogui
+<p>git clone https://github.com/ps-interactive/auto-typer.git
+<p>sudo chmod +x auto-typer.py
 <p>Create a file called command.txt which contains the command you want to be typed
 <p>./auto-typer.py
   
