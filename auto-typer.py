@@ -6,7 +6,7 @@ import time
 dwellTime = 5
 time.sleep(dwellTime)
 
-cmdFilenme = r"./command.txt"
+cmdFilename = r"./command.txt"
 keystrokeInterval = 0.1 
 
 with open(cmdFilename) as f:
