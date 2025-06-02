@@ -14,7 +14,7 @@ A tool for smoothly typing commands in demos
 <p>Create a file called cmd.txt with the command you want to be typed
 <p>./auto-typer.py
   
-# To-Do
+## To-Do
 * Add jitter around keystrokeInterval so typing looks more natural
 * Add command line options for dwellTime, cmdFilename and keystrokeInterval
 * Add support for multi-command demos. Detect when a command has completed and then run the next one.
