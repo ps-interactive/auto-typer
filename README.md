@@ -11,5 +11,5 @@ A tool for smoothly typing commands in demos
 * keystroke_interval: The time between each keystroke eg 0.1 s 
 
 ## Usage
-* Create a file called cmd.txt
-./auto-typer.py
+<p>Create a file called cmd.txt with the command you want to be typed
+<p></p>./auto-typer.py
