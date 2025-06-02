@@ -2,7 +2,7 @@
 A tool for smoothly typing commands in demos
 
 ## Pre-requisites
-python3<br>
+* Requires python3
 pip install pyautogui
 
 ## Parameters
