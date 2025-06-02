@@ -13,7 +13,8 @@ A tool for smoothly typing commands in demos
 <p>sudo chmod +x auto-typer.py
 <p>Edit command.txt to hold the command you want to be typed
 <p>./auto-typer.py
-  
+<p> Switch to the console you want your command to be typed in
+</p>
 ## To-Do
 * Add jitter around keystrokeInterval so typing looks more natural
 * Add command line options for dwellTime, cmdFilename and keystrokeInterval
