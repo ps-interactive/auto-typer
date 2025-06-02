@@ -6,9 +6,9 @@ A tool for smoothly typing commands in demos
 <p>pip install pyautogui
 
 ## Parameters
-* dwell_time: The maximum available time from running the script to bringing the target window into focus
-* cmd_file: Full path to the command file 
-* keystroke_interval: The time between each keystroke eg 0.1 s 
+* dwellTime: The maximum available time from running the script to bringing the target window into focus
+* cmdFilename: Full path to the command file 
+* keystrokeInterval: The time between each keystroke in seconds
 
 ## Usage
 <p>Create a file called cmd.txt with the command you want to be typed
