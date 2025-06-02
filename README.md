@@ -2,9 +2,10 @@
 A tool for smoothly typing commands in demos
 
 ## Parameters
-* dwellTime: The maximum available time from running the script to bringing the target window into focus
+* dwellTime: Initial delay to allow you to focus the terminal window you wnt to type in
 * cmdFilename: Full path to the command file 
 * keystrokeInterval: The time between each keystroke in seconds
+* postCommandDelay: The delay between running successive commands
 
 ## Usage
 <p>pip3 install pyautogui
