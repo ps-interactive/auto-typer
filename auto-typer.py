@@ -14,6 +14,6 @@ with open(cmdFilename, 'r') as f:
 
 for command in commands:
     pyautogui.write(command, interval=keystrokeInterval)
-    tiem.sleep(1)
+    time.sleep(1)
     pyautogui.press('enter')
     time.sleep(postCommandDelay)
